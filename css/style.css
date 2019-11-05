@@ -1,0 +1,113 @@
+.header{
+background-color: #e4eaec;
+    color: #b9bbbe;
+    position: fixed;
+}
+#bg{
+    width: 300px;
+    height: 120px;
+
+}
+#search{
+    margin-left: 100px;
+    width: 600px;
+    position: relative;
+    border: 5px solid orange;
+    border-radius: 10px;
+}
+#btn{
+    left: 750px;
+    position: absolute;
+    border-radius: 5px;
+    border: 5px solid orange;
+    color: white;
+    background-color: orange;
+}
+.fa-search{
+    position: absolute;
+    left: 720px;
+    top: 40px;
+    color: #b9bbbe;
+}
+#txt{
+    margin-left: 90px;
+}
+#header-left{
+    padding-top: 30px;
+}
+.navbar{
+    background-color: #e4eaec;
+    color: black;
+}
+.navbar:hover a {
+    color: red;
+}
+.navbar-brand{
+    margin: 10px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+#home{
+    margin-right: 30px;
+    margin-left: 50px;
+    background-color: orange;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+#home:hover{
+    color: mediumpurple;
+}
+.nav-bar hr{
+    border: 1px solid #e4eaec;
+}
+.main{
+    margin-top: 20px;
+}
+.content-left{
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #e4eaec;
+}
+.content-left li{
+    list-style: none;
+    padding-left: 20px;
+}
+.content-left li a{
+    color: black;
+}
+.content-left li a:hover{
+    color: red;
+}
+
+#anime-top{
+    background-color: #dc3545;
+    color: white;
+    width: 260px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Cambria;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border-style: dotted dashed solid double;
+}
+.list-anime li{
+    margin-top: 3px;
+}
+
+.content-right img{
+    width: 250px;
+    height: 260px;
+    padding-left: 30px;
+}
+
+.content-right p{
+    text-align: center;
+    color: orange;
+}
+p:hover{
+    color: #dc3545;
+    cursor: pointer;
+}
